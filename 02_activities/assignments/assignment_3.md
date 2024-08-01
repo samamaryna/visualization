@@ -6,15 +6,34 @@
 - Let’s return to the data visualizations we evaluated for Assignment 2.  
 - For each visualization: 
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) whether or not you think this data visualization is accessible, reproducible, and equitable. 
-        ```
-        Your answer...
+For this assignment I use visuals from my previous assignment. 
+Bad visualisation (Source: [National Rail Summary by Isuru Lokuge](https://www.mavenanalytics.io/project/17517)):
+<img src="Bad visualisation.png">
 
+Good visualisation (Source: [Harry Potter - What the Spell? by Jonathan van der Waard](https://www.mavenanalytics.io/project/1204)):
+<img src="Good visualisation.png">
 
+      ```
+        Color: 
+        "Bad" visualisation didn't pass colorblindness tests - it is not accessible to people with different color vision deficiencies. 
+        "Good" visualisation doesn't rely on colors to convey the message. The message can be delivered even within grayscale color scheme. So this it is accessible to people with color vision deficiencies. 
+        Text and descriptions: 
+        Overall "bad" visualisation is hard to read. The text labels are crossed with multiple ribbons, it makes impossible to understand and read this visual. This visual has no description of visual elements or patterns, and also has no clear legend. 
+        The "good" visualisation is easier to read, it has clear labels, legend and description of the visual. It also has descriptions for some data points which makes it easier to understand. 
+
+        Reproducibility
+        Both visualisations are part of the dashboards. But "bad" visualisation don't include source of the data so this makes it hard to reproduce. "Good" visual includes the link to the data source. 
+        Since both of visuals are from Power BI dashboards, we don't know what steps authors made to create the visuals, and it makes them impossible to reproduce. 
+
+        Equitable
+        It is hard to decide if the visuals are equitable, since we don't know how the data was collected, processed and analysed for both of these visuals. 
 
         ```
     - How could this data visualization have been improved (in terms of accessibility, reproducibility, equity)?  
         ```
-        Your answer...
+        Overall it is hard just to improve the "bad" visualisation. It requires to use a different graph type, maybe map or even the simple table would convey the message more clearly. 
+        To improve "good" visualisation I would change the font style, using more accessible typeface. I also would add alt-text to data points, and to accompany labels to make the visual accessible for blind people that uses devices or software that helps them to read. 
+        To make the visuals more reproducible, it's probably better to use Python script with comments. 
 
 
 
