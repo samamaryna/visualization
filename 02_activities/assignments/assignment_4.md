@@ -9,33 +9,69 @@
 
 ### My visualisations: 
 For both visualisations I used the same data source, which was [Deaths of People Experiencing Homelessness](https://open.toronto.ca/dataset/deaths-of-people-experiencing-homelessness/) from City of Toronto Open Data.
+
 **Python visualisation:** 
 <img src="python_visual.png">
 
 **Power BI visualisation:**
-<img src="">
+For Power BI visualisation, please [click here](https://app.powerbi.com/view?r=eyJrIjoiMjZlZWJlMWEtYmI4Ny00MzM2LThiMDItNjBkYjE0Zjg0NDMwIiwidCI6IjAzZGYxMTQ5LWE0MGItNDNmNy05ZTg4LWRjODk0ZjJkMjU3MCJ9)
+
+
 
 
 
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-
-
+    ```
+    My answer: I used Python and Power BI to create visualisations.
+    ```
     > Who is your intended audience? 
+    ```
+    My answer: My intended audience for Python visual is Toronto municipal government. 
+    For Power BI visual - online audience, residents of Toronto. 
+    ```
     
     > What information or message are you trying to convey with your visualization? 
+    ```
+    My answer: The Python visual is conveying the message about most common causes of deaths between people experiencing homelessness. 
+    The Power Bi visual showing the age range, gender distribution and overall statistics of death between people experiencing homelessness during 2017-2023 years. 
+
+    ```
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+
+    ```
+    My answer: For both visuals I tried to use substantive and aesthetic design principals. I tried to make them clear and consice, using minimal visual elements, but trying to make visuals comprehensive at the same time. 
+    For Python visual I used bar chart, labels, value labels, title, and titles for y and x axes. I also used subtitle to provide more context to the visual. 
+    For Power BI dashboards I used different types of graphs: a bar chart, a pie chart and a line graph. I used title, and titles for x and y axes, I used ticks and labels. 
+    ```
     
-    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+    ```
+    My answer: To make a Python visual reporducible, I commented all changes I made in the Jupiter notebook.
+    Power BI visual is reproducible too. Reproducibility in the context of Power BI means that given the same dataset and report configuration, the visual will consistently display the same results. 
+    ```
     
     > How did you ensure that your data visualization is accessible?  
-    
+    ```
+    My answer: For my Python visual I used simple fonts, and one color for bars. I tried to provide description to add more context to the visual. 
+
+    For my Power BI visual I also used simple fonts and used an accessible color scheme for all dashboard.  
+    ```
     > Who are the individuals and communities who might be impacted by your visualization?  
+    ```
+    My answer: I hope that my visuals will have positive impact to people experiencing homelessness and addicted to substances use.
+    ```
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    ```
+    My answer: My dataset is not too big, so for both visuals I tried to use all features, to explore the data and make comprehensive analysis.
+    ```
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    ```
+    My answer: People, who collected data. Designers created acceccible colour scheme for Power BI I used. 
+    ```
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
